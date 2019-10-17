@@ -1,3 +1,6 @@
+@import url("//cdn.muicss.com/mui-0.10.0/css/mui.min.css");
+@import url("//cdn.muicss.com/mui-0.10.0/extra/mui-colors.min.css");
+
 .App {
   text-align: center;
 }
@@ -19,4 +22,19 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.post {
+  border: 1px blue solid;
+  margin: 1em;
+  background: blue;
+  color: whitesmoke;
+}
+
+.addButton {
+  background: grey;
+}
+
+.addButton:hover {
+  background: rgb(156, 154, 154);
 }
